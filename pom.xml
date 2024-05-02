@@ -15,12 +15,12 @@
 
   <groupId>com.io7m.jcathinone</groupId>
   <artifactId>com.io7m.jcathinone</artifactId>
-  <version>0.0.3</version>
+  <version>1.0.0-SNAPSHOT</version>
 
   <packaging>jar</packaging>
   <name>com.io7m.jcathinone</name>
   <description>Messaging server</description>
-  <url>https://github.com/io7m/jcathinone</url>
+  <url>https://www.io7m.com/software/jcathinone</url>
 
   <properties>
     <com.io7m.org.immutables.value.version>2.6.1</com.io7m.org.immutables.value.version>
@@ -36,9 +36,9 @@
   </licenses>
 
   <scm>
-    <url>https://github.com/io7m/jcathinone</url>
-    <connection>scm:git:https://github.com/io7m/jcathinone</connection>
-    <developerConnection>scm:git:https://github.com/io7m/jcathinone</developerConnection>
+    <url>https://www.github.com/io7m-com/jcathinone</url>
+    <connection>scm:git:https://www.github.com/io7m-com/jcathinone</connection>
+    <developerConnection>scm:git:https://www.github.com/io7m-com/jcathinone</developerConnection>
   </scm>
 
   <developers>
@@ -51,7 +51,7 @@
   </developers>
 
   <issueManagement>
-    <url>http://github.com/io7m/jcathinone/issues</url>
+    <url>http://www.github.com/io7m-com/jcathinone/issues</url>
     <system>GitHub Issues</system>
   </issueManagement>
 
