@@ -23,7 +23,7 @@
   <url>https://www.io7m.com/software/jcathinone</url>
 
   <properties>
-    <com.io7m.org.immutables.value.version>2.6.1</com.io7m.org.immutables.value.version>
+    <org.immutables.version>2.6.1</org.immutables.version>
     <io7m.api.previousVersion>0.0.3</io7m.api.previousVersion>
     <io7m.java.targetJavaVersion>21</io7m.java.targetJavaVersion>
   </properties>
@@ -104,6 +104,21 @@
   <build>
     <pluginManagement>
       <plugins>
+        <!-- Configure compiler -->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <configuration>
+            <annotationProcessorPaths>
+              <dependency>
+                <groupId>org.immutables</groupId>
+                <artifactId>value</artifactId>
+                <version>${org.immutables.version}</version>
+              </dependency>
+            </annotationProcessorPaths>
+          </configuration>
+        </plugin>
+
         <!-- Ignore dependencies that bytecode analysis gets wrong. -->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
